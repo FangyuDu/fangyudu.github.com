@@ -1,0 +1,19 @@
+.container{width:1120px;}
+
+header{
+    a.logo{display: inline-block;width:150px;text-align: center;color: #222;font-size:28px;font-weight:bold;}
+    nav{display: inline-block;
+        a{display: inline-block;padding:8px 15px;border-radius:8px;
+            &:hover{background-color:$mainColor;color:#fff;}
+        }
+    }
+}
+
+.list-default{
+    .list-row{box-shadow: 0 0 2px #949494;padding:10px;
+        a{display:block;}
+        .title{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;font-weight: bold;}
+        .intro{font-size:75%;}
+        &:hover{box-shadow:0 0 2px $mainColor;}
+    }
+}
