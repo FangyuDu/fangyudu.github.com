@@ -10,8 +10,8 @@ header{
 }
 
 .list-default{
-    .list-row{box-shadow: 0 0 2px #949494;padding:10px;
-        a{display:block;}
+    .list-row{box-shadow: 0 0 2px #949494;margin:15px 0px;
+        a{display:block;padding:10px;}
         .title{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;font-weight: bold;}
         .intro{font-size:75%;}
         &:hover{box-shadow:0 0 2px $mainColor;}

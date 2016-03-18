@@ -1,0 +1,39 @@
+@import "theme";
+@import "reset";
+
+.container{
+    width:1280px;
+}
+
+header{
+    .logo{display: inline-block;width:120px;padding-left:45px;margin-left:60px;font:150%/56px "黑体";background:url(logo.png) left center no-repeat;}
+    nav{display: inline-block;
+        a{display: inline-block;padding:0px 15px;margin-right:15px;line-height:52px;color:#787b83;}
+        a:hover,a.on{border-bottom:solid 4px $mainColor;color:$mainColor;}
+    }
+    .login{display: inline-block;margin-right:60px;
+        .login_btn{display: inline-block;padding-left:20px;background:url(login_icon.png) left center no-repeat;color:$mainColor;}
+    }
+}
+.banner{height:690px;background:url(banner.png) center top no-repeat;background-size:cover;
+    .banner_content{padding-top:216px;color:#fff;margin-left: 110px;
+        .title{font-size:60px;margin-bottom:16px;margin-left:-8px; letter-spacing:1px;}
+        .intro{font-size:21px;line-height:1.6;margin-bottom: 64px;}
+        .more{display:inline-block;width:330px;line-height:64px;text-align: center;color:#fff;font-size:200%;background-color:$mainColor;letter-spacing:5px;}
+    }
+}
+.s1{padding:0px;
+    .block{width:25%;float:left;text-align:center;
+        i{display: inline-block;width:42px;height:42px;background:url(s1_icon.png) no-repeat;margin:45px auto;}
+        p{padding:0px 80px;margin-bottom:65px;height:52px;border-right:solid 1px #aaa;color:#767777;}
+    }
+    @for $i from 1 through 4{
+        .s1_#{$i}{
+           i{background-position-x:-42px*($i - 1);}
+        }
+    }
+}
+.s2{height:360px;padding-top:89px;text-align:center;background-color: #ededec;
+    p{color:#a1a1a1;font-family:"黑体";font-size:54px;margin-top:40px;}
+}
+

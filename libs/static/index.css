@@ -1,40 +1,86 @@
 @charset "UTF-8";
 /*reset*/
-body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0; }
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+  margin: 0;
+  padding: 0; }
 
-body { font: 14px "Arial Narrow","微软雅黑",HELVETICA; background: #fff; -webkit-text-size-adjust: 100%; min-width: 1200px; }
+body {
+  font: 14px "Arial Narrow","微软雅黑",HELVETICA;
+  background: #fff;
+  -webkit-text-size-adjust: 100%;
+  min-width: 1200px; }
 
-a { color: #2d374b; text-decoration: none; }
+a {
+  color: #2d374b;
+  text-decoration: none; }
 
-a:hover { color: #007dff; text-decoration: none; }
+a:hover {
+  color: #007dff;
+  text-decoration: none; }
 
-em { font-style: normal; }
+em {
+  font-style: normal; }
 
-li { list-style: none; }
+li {
+  list-style: none; }
 
-img { border: 0; vertical-align: middle; }
+img {
+  border: 0;
+  vertical-align: middle; }
 
-table { border-collapse: collapse; border-spacing: 0; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
 
-p { word-wrap: break-word; }
+p {
+  word-wrap: break-word; }
 
-.fll { display: block; float: left; }
+.fll {
+  display: block;
+  float: left; }
 
-.flr { display: block; float: right; }
+.flr {
+  display: block;
+  float: right; }
 
-.nopadding { padding: 0px; }
+.nopadding {
+  padding: 0px; }
 
-.container { width: 1120px; }
+.container {
+  width: 1120px; }
 
-header a.logo { display: inline-block; width: 150px; text-align: center; color: #222; font-size: 28px; font-weight: bold; }
-header nav { display: inline-block; }
-header nav a { display: inline-block; padding: 8px 15px; border-radius: 8px; }
-header nav a:hover { background-color: #007dff; color: #fff; }
+header a.logo {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  color: #222;
+  font-size: 28px;
+  font-weight: bold; }
+header nav {
+  display: inline-block; }
+  header nav a {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 8px; }
+    header nav a:hover {
+      background-color: #007dff;
+      color: #fff; }
 
-.list-default .list-row { box-shadow: 0 0 2px #949494; padding: 10px; }
-.list-default .list-row a { display: block; }
-.list-default .list-row .title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 100%; font-weight: bold; }
-.list-default .list-row .intro { font-size: 75%; }
-.list-default .list-row:hover { box-shadow: 0 0 2px #007dff; }
+.list-default .list-row {
+  box-shadow: 0 0 2px #949494;
+  margin: 15px 0px; }
+  .list-default .list-row a {
+    display: block;
+    padding: 10px; }
+  .list-default .list-row .title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    font-weight: bold; }
+  .list-default .list-row .intro {
+    font-size: 75%; }
+  .list-default .list-row:hover {
+    box-shadow: 0 0 2px #007dff; }
 
 /*# sourceMappingURL=index.css.map */
