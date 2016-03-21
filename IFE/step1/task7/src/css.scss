@@ -6,7 +6,7 @@
 }
 
 header{
-    .logo{display: inline-block;width:120px;padding-left:45px;margin-left:60px;font:150%/56px "黑体";background:url(logo.png) left center no-repeat;}
+    .logo{display:block;width:120px;padding-left:45px;margin-left:60px;float:left;font:150%/56px "黑体";background:url(logo.png) left center no-repeat;}
     nav{display: inline-block;
         a{display: inline-block;padding:0px 15px;margin-right:15px;line-height:52px;color:#787b83;}
         a:hover,a.on{border-bottom:solid 4px $mainColor;color:$mainColor;}
@@ -36,4 +36,89 @@ header{
 .s2{height:360px;padding-top:89px;text-align:center;background-color: #ededec;
     p{color:#a1a1a1;font-family:"黑体";font-size:54px;margin-top:40px;}
 }
+.s3{height:340px;background:url(s3_bg.png) center no-repeat;background-size:cover;
+    .s3_text{text-align:center;color:#fff;padding-top: 50px;
+        .title{font-size:21px;}
+        .title:after{content:'';display:block;width:30px;height:3px;margin:10px auto 20px;background-color: #fff;}
+        .intro{font-size:12px;}
+    }
+    .search_fr{margin-top:50px;width:1028px;
+        .select,.search_btn{display: inline-block;width:235px;height:36px;position:relative;line-height:36px; vertical-align:top;}
+        .select{border:solid 1px transparent;
+            .select_1{height:36px;padding-left:15px;background:url(select_btn.png) 208px center no-repeat #fff;color:#aaa;}
+            .options{background-color: #e3e2e4;border:solid 1px #be4e48;box-sizing:content-box;position:absolute;width:100%;left:-1px;top:36px;padding-bottom:8px;
+                li{line-height:26px;padding-left:32px;color:#323333;}
+                li:hover{background:url(option_bg.png) 8px center no-repeat #be4e48;color:#fff;}
+            }
+            &.on{border-color:#be4e48;}
+        }
+        .search_btn{background-color: #be4e48;color:#fff;padding:0px 90px;}
+    }
+}
+.s4{padding:100px 0px;
+    .block{display: inline-block;width:220px;height:400px; overflow: hidden;
+        a{color:#000;}
+        .img_fr{padding:7px 12px;height:340px;border:solid 1px #dadada;
+            i{display:block;height:100%;background-size:cover;}
+        }
+        .text_1{margin-top:-60px;transition:.2s;
+            .title{font-size:24px;font-weight:bold;height:36px;}
+            .intro{font-size:12px;text-align:center;line-height:2;}
+        }
+        .text_2{text-align:center;line-height:2;
+            .title{margin-top:8px;}
+            .intro{font-size:12px;color:#888;}
+        }
+    }
+    .block:hover{
+        .text_1{margin-top:0px;}
+    }
+}
+.s5{width:100%;height:565px;
+    .left{height:565px;background:url(s5.jpg) center no-repeat;background-size:cover;}
+    .right{height:565px;padding-top:160px;
+        .bd{
+            .block{width:288px;margin:auto;
+                .title{text-align:center;font-size:150%;margin-bottom:21px;
+                    span.cn{}
+                    span.num{color:#e74f4d;}
+                }
+                .intro{font-size:12px;color:#aaa;line-height:32px;margin-bottom:32px;}
+                .more{text-align:center;margin-bottom:25px;
+                    a{display: inline-block;width:108px;line-height:32px;border:solid 1px #e74f4d;color:#e74f4d}
+                }
+            }
+        }
+        .hd{text-align:center;
+            li{display: inline-block;width:12px;height:12px;border:solid 1px #929293;margin:0px 6px;border-radius:100%;}
+            li.on{background-color:#929293;}
+        }
+    }
+}
+.s6{width:100%;height:520px;
+    .block{height:520px;font-size:21px;font-family:"黑体";padding-top:165px;
+        p{width:170px;text-align:center;margin:auto;line-height:1.5}
+        .line{width:28px;height:2px;margin:20px auto;background-color: #fff;}
+        span.more{
+            a{display:block;line-height:42px;border:solid 1px #fff;color:#fff;}
+        }
+    }
+    .s6_1{background-color: #e7504d;color:#fff;}
+    .s6_2{
+        .line{width:28px;height:2px;margin:20px auto;background-color: #333;}
+        span.more{
+            a{display:block;line-height:42px;border:solid 1px #e7504d;color:#e7504d;}
+        }
+    }
+    .s6_3{background:url(s6.jpg) center no-repeat;background-size:cover;}
+}
+
+
+
+
+
+
+
+
+
 

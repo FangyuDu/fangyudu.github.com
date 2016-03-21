@@ -11,3 +11,5 @@ p { word-wrap: break-word; }
 .fll { display: block; float: left; }
 .flr { display: block; float: right; }
 .nopadding { padding: 0px; }
+.taj{text-align:justify;}
+.taj:after{content:'';display: inline-block;width:100%;}
